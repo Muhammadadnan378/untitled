@@ -36,7 +36,6 @@ class _ExampleTowStateState extends State<ExampleTowState> {
       ),
       body: Column(
         children: [
-          Text("Muhammad Adnan"),
           Expanded(
             child: FutureBuilder(
               future: getPhotos(),
